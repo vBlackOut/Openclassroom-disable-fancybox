@@ -34,7 +34,7 @@ setTimeout(disable_fancybox, 500);
 }
 
 function pageFullyLoaded () {
-    console.log ("==> Page is fully loaded, including images.", new Date() );
+    console.log ("==> Page is fully loaded, including script.", new Date() );
     //document.getElementsByClassName('fancybox-wrap')[0].style.display = "none";
     console.log(document.getElementsByClassName('course'));
     check_fancybox();
