@@ -30,7 +30,7 @@ document.getElementsByClassName('fancybox-overlay')[0].style.display = "none";
 function check_fancybox(){
 // traitement
 console.log(document.getElementsByClassName('fancybox-overlay'));
-setTimeout(disable_fancybox, 500); /* rappel après 2 secondes = 2000 millisecondes */
+setTimeout(disable_fancybox, 500);
 }
 
 function pageFullyLoaded () {
