@@ -23,14 +23,14 @@ function DOM_ContentReady () {
 }
 
 function disable_fancybox(){
-document.getElementsByClassName('fancybox-overlay')[0].style.display = "none";
-  document.getElementsByClassName('fancybox-wrap')[0].style.display = "none";
+    document.getElementsByClassName('fancybox-overlay')[0].style.display = "none";
+    document.getElementsByClassName('fancybox-wrap')[0].style.display = "none";
 }
 
 function check_fancybox(){
-// traitement
-console.log(document.getElementsByClassName('fancybox-overlay'));
-setTimeout(disable_fancybox, 500);
+    // traitement
+    console.log(document.getElementsByClassName('fancybox-overlay'));
+    setTimeout(disable_fancybox, 500);
 }
 
 function pageFullyLoaded () {
