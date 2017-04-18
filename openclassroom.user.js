@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        openclasseroom
 // @namespace   openclasseroom
-// @description close popup openclasseroom 
+// @description close popup openclassroom 
 // @include     https://*.openclassrooms.com/*
 // @version     
 // @require     http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js
